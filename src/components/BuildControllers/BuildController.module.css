@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  padding: 20px 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price {
+  margin-bottom: 10px;
+}
+
+.orderButton {
+  background-color: #8f6414;
+  border: 0;
+  border-radius: 10px;
+  padding: 13px 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.orderButton:disabled {
+  background-color: gray;
+  cursor: default;
+}

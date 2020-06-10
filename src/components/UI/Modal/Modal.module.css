@@ -1,0 +1,27 @@
+.modal {
+  width: 90%;
+  border-radius: 4px;
+  padding: 30px 20px;
+  box-shadow: 3px 3px 8px #888;
+  position: fixed;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #aaa;
+}
+
+@media screen and (min-width: 720px) {
+  .modal {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .modal {
+    width: 50%;
+  }
+}

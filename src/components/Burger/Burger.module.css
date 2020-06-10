@@ -1,0 +1,15 @@
+.burger {
+  width: 100%;
+  margin: 100px auto 50px auto;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 300px) {
+  .burger {
+    width: 300px;
+  }
+}
+
+.label {
+  text-align: center;
+}

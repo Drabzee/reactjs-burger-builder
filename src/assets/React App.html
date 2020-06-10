@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://localhost:3000/burger/burger -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link href="./React App_files/css2" rel="stylesheet">
+    <link href="./React App_files/icon" rel="stylesheet">
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <style type="text/css">* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 540px) {
+  body {
+    font-size: 16px;
+  }
+}</style><style type="text/css"></style><style type="text/css">.Toolbar_toolbar__2jz7v {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  padding: 5px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orange;
+}
+
+@media screen and (min-width: 540px) {
+  .Toolbar_toolbar__2jz7v {
+    padding: 5px 100px;
+  }
+}
+
+.Toolbar_menuButton__3xQgO {
+  background-color: orange;
+  border: 0;
+  outline: 0;
+}
+
+@media screen and (min-width: 540px) {
+  .Toolbar_menuButton__3xQgO {
+    visibility: hidden;
+  }
+}
+
+.Toolbar_menuButton__3xQgO span {
+  font-weight: bold;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.Toolbar_menu__3bFWM {
+  display: none;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 540px) {
+  .Toolbar_menu__3bFWM {
+    display: flex;
+  }
+}
+
+.Toolbar_menu__3bFWM a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
+
+.Toolbar_menu__3bFWM a:hover {
+  font-weight: bold;
+}
+
+.Toolbar_active__3PSR3 {
+  font-weight: bold;
+}</style><style type="text/css">.Drawer_drawer__1GV60 {
+  width: 75%;
+  height: 100%;
+  box-shadow: 0px 3px 8px #444;
+  background-color: white;
+  top: 0;
+  position: fixed;
+  z-index: 300;
+  left: 0;
+  border-top: 6px solid orange;
+}
+
+@media screen and (min-width: 540px) {
+  .Drawer_drawer__1GV60 {
+    display: none;
+  }
+}
+
+.Drawer_header__MXYCd {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  margin-top: 5px;
+}
+
+.Drawer_header__MXYCd h1 {
+  margin-left: 6px;
+  margin-top: 20px;
+}
+
+.Drawer_closeIcon__OKnjs {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.Drawer_menu__rteZq {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.Drawer_menu__rteZq a {
+  text-decoration: none;
+  padding: 5px 15px;
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
+  border-left: 4px solid white;
+}
+
+.Drawer_menu__rteZq a.Drawer_active__1nlGH,
+.Drawer_menu__rteZq a:hover,
+.Drawer_menu__rteZq a:active {
+  border-left: 4px solid orange;
+}</style><style type="text/css">.Backdrop_backdrop__MMFHf {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.5;
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+}</style><style type="text/css">.Burger_burger__3_ylo {
+  width: 100%;
+  margin: 100px auto 50px auto;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 300px) {
+  .Burger_burger__3_ylo {
+    width: 300px;
+  }
+}
+
+.Burger_label__5oSgK {
+  text-align: center;
+}</style><style type="text/css">.BurgerIngredient_breadTop__oT5y7, .BurgerIngredient_breadBottom__3FjUd, .BurgerIngredient_salad__3ot66, .BurgerIngredient_meat__Z16c0, .BurgerIngredient_bacon__3pr9C, .BurgerIngredient_cheese__e_vS_ {
+  width: 100%;
+  margin: 4px auto;
+}
+
+.BurgerIngredient_breadTop__oT5y7 {
+  height: 100px;
+  margin: 0;
+}
+
+.BurgerIngredient_breadBottom__3FjUd {
+  height: 50px;
+  margin: 0;
+}
+
+.BurgerIngredient_salad__3ot66 {
+  height: 10px;
+  background-color: #5bac66;
+  border-radius: 100px;
+}
+
+.BurgerIngredient_meat__Z16c0 {
+  height: 20px;
+  width: 95%;
+  background-color: #804f2f;
+  border-radius: 7px;
+}
+
+.BurgerIngredient_bacon__3pr9C {
+  height: 10px;
+  width: 90%;
+  background-color: #e71717;
+  border-radius: 100px;
+}
+
+.BurgerIngredient_cheese__e_vS_ {
+  height: 10px;
+  background-color: #ffd900;
+  border-radius: 100px;
+}</style><style type="text/css">.BuildController_container__1yy3k {
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  padding: 20px 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.BuildController_price__C6Lk5 {
+  margin-bottom: 10px;
+}
+
+.BuildController_orderButton__3Q-cC {
+  background-color: #8f6414;
+  border: 0;
+  border-radius: 10px;
+  padding: 13px 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.BuildController_orderButton__3Q-cC:disabled {
+  background-color: gray;
+  cursor: default;
+}</style><style type="text/css">.Controller_container__1KQhF {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+
+.Controller_controller__j07yb {
+  display: flex;
+  align-items: center;
+}
+
+.Controller_label__1q04n {
+  text-transform: capitalize;
+}
+
+.Controller_qty__nppQO {
+  margin: 0 10px;
+}
+
+.Controller_removeButton__2bwzI, .Controller_addButton__3Lo07 {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.Controller_addButton__3Lo07 {
+  background-color: #8f6414;
+  border: 2px solid #8f6414;
+}
+
+.Controller_removeButton__2bwzI {
+  background-color: orange;
+  border: 2px solid #8f6414;
+}
+
+.Controller_addIcon__2rpYg, .Controller_removeIcon__3mtPa {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Controller_removeIcon__3mtPa {
+  color: #8f6414;
+}
+
+.Controller_addIcon__2rpYg {
+  color: white;
+}</style><style type="text/css">.Modal_modal__1V1Wo {
+  width: 90%;
+  border-radius: 4px;
+  padding: 30px 20px;
+  box-shadow: 3px 3px 8px #888;
+  position: fixed;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #aaa;
+}
+
+@media screen and (min-width: 720px) {
+  .Modal_modal__1V1Wo {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .Modal_modal__1V1Wo {
+    width: 50%;
+  }
+}</style><style type="text/css">.OrderSummary_description__3HR75 {
+  margin: 20px 0px;
+}
+
+.OrderSummary_ingredientsList__30UrM {
+  margin-left: 50px;
+  text-transform: capitalize;
+}
+
+.OrderSummary_price__39Cyv {
+  margin-top: 10px;
+}</style><style type="text/css">.Button_button__3QinR {
+  background-color: white;
+  border: 0;
+  outline: 0;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.Button_success__16ZrX {
+  color: #5cb85c;
+}
+
+.Button_danger__2pl7b {
+  color: #d9534f;
+}</style><style type="text/css">.Checkout_checkout__1shY1 {
+  background-color: orange;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.Checkout_form__2YEun {
+  margin: 20px auto 0 auto;
+  max-width: 400px;
+  padding: 0 10px;
+}
+
+.Checkout_heading__17mC-, .Checkout_label__3-UKf {
+  color: #524a3b;
+}
+
+.Checkout_formGrp__3wMwa {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Checkout_label__3-UKf {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.Checkout_input__22XXy {
+  width: 100%;
+  margin-bottom: 10px;
+  outline: 0;
+  padding: 9px 13px;
+  border-radius: 5px;
+  border: 0;
+  color: #524a3b;
+}
+
+.Checkout_orderButton__2hkPj {
+  background-color: #8f6414;
+  border: 0;
+  border-radius: 10px;
+  padding: 13px 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.Checkout_orderButton__2hkPj:disabled {
+  background-color: gray;
+  cursor: default;
+}</style><style type="text/css">.Loader_loader__JH7CJ {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #00000088;
+}
+
+.Loader_ldsDualRing__2DvsV {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  z-index: 100;
+}
+
+.Loader_ldsDualRing__2DvsV:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid orange;
+  border-color: orange transparent orange transparent;
+  animation: Loader_lds-dual-ring__16BAl 1.2s linear infinite;
+}
+
+@keyframes Loader_lds-dual-ring__16BAl {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+</style><style type="text/css">.Orders_orders__1XsZr {
+  margin: 100px auto 0 auto;
+}
+
+.Orders_heading__3Lf6- {
+  text-align: center;
+}
+
+.Orders_orderList__Qf2QC {
+  max-width: 1000px;
+  padding: 10px;
+  margin: 10px auto;
+}</style><style type="text/css">.Order_order__1Rl2j {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Order_orderID__1hYdl {
+  background-color: orange;
+  color: white;
+  align-self: flex-start;
+  text-align: center;
+  padding: 7px 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.Order_orderData__3OCQO {
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 40px;
+  border-bottom: 3px solid orange;
+}
+
+.Order_orderRow__3Xfcc {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  padding: 10px;
+}
+
+.Order_orderRow__3Xfcc:last-of-type {
+  border: 0;
+}
+
+.Order_orderRow__3Xfcc h4 {
+  flex: 1 1;
+}
+
+.Order_orderRow__3Xfcc p {
+  flex: 2 1;
+}
+
+.Order_ingredients__3kU3W {
+  flex: 2 1;
+  margin-left: 27px;
+}</style><style type="text/css">.SignUser_signUser__BnZya {
+  padding: 0 10px;
+}
+
+.SignUser_form__3TfEm {
+  max-width: 400px;
+  margin: 100px auto 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.SignUser_error__3Jw71 {
+  background-color: #ff000033;
+  color: red;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.SignUser_heading__3uGEy {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #666;
+}
+
+.SignUser_formGroup__2JpIU {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.SignUser_label__23a2B {
+  font-size: 13px;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.SignUser_input__3QtgA {
+  padding: 10px 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  outline: 0;
+}
+
+.SignUser_input__3QtgA:hover, .SignUser_input__3QtgA:focus {
+  border-color: orange;
+}
+
+.SignUser_desc__3VUuv {
+  align-self: center;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.SignUser_desc__3VUuv span {
+  font-size: 16px;
+  font-weight: bold;
+  color: orange;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.SignUser_button__3djdA {
+  padding: 10px 30px;
+  border: 0;
+  border: 0;
+  margin-top: 20px;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: center;
+  outline: 0;
+  font-size: 16px;
+}</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><div class="Toolbar_toolbar__2jz7v"><button class="Toolbar_menuButton__3xQgO"><span class="material-icons">menu</span></button><ul class="Toolbar_menu__3bFWM"><a href="http://localhost:3000/"><li>Burger Builder</li></a><a href="http://localhost:3000/auth"><li>Authentication</li></a></ul></div><main></main></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./React App_files/bundle.js.download"></script><script src="./React App_files/0.chunk.js.download"></script><script src="./React App_files/main.chunk.js.download"></script>
+
+</body></html>

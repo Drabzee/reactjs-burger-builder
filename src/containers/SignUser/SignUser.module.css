@@ -1,0 +1,88 @@
+.signUser {
+  padding: 0 10px;
+}
+
+.form {
+  max-width: 400px;
+  margin: 100px auto 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  background-color: #ff000033;
+  color: red;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error span {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.heading {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #666;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 10px 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  outline: 0;
+}
+
+.input:hover, .input:focus {
+  border-color: orange;
+}
+
+.desc {
+  align-self: center;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.desc span {
+  font-size: 16px;
+  font-weight: bold;
+  color: orange;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.button {
+  padding: 10px 30px;
+  border: 0;
+  border: 0;
+  margin-top: 20px;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: center;
+  outline: 0;
+  font-size: 16px;
+}

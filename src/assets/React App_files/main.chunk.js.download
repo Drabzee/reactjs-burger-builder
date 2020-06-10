@@ -1,0 +1,4157 @@
+(this["webpackJsonpburger-builder"] = this["webpackJsonpburger-builder"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/BuildControllers/BuildController.module.css":
+/*!***********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/BuildControllers/BuildController.module.css ***!
+  \***********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".BuildController_container__1yy3k {\r\n  width: 100%;\r\n  background-color: orange;\r\n  display: flex;\r\n  padding: 20px 0;\r\n  flex-direction: column;\r\n  align-items: center;\r\n}\r\n\r\n.BuildController_price__C6Lk5 {\r\n  margin-bottom: 10px;\r\n}\r\n\r\n.BuildController_orderButton__3Q-cC {\r\n  background-color: #8f6414;\r\n  border: 0;\r\n  border-radius: 10px;\r\n  padding: 13px 20px;\r\n  font-weight: bold;\r\n  color: white;\r\n  margin-top: 10px;\r\n  cursor: pointer;\r\n  outline: 0;\r\n}\r\n\r\n.BuildController_orderButton__3Q-cC:disabled {\r\n  background-color: gray;\r\n  cursor: default;\r\n}", ""]);
+// Exports
+exports.locals = {
+	"container": "BuildController_container__1yy3k",
+	"price": "BuildController_price__C6Lk5",
+	"orderButton": "BuildController_orderButton__3Q-cC"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/BuildControllers/Controller/Controller.module.css":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/BuildControllers/Controller/Controller.module.css ***!
+  \*****************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".Controller_container__1KQhF {\r\n  display: flex;\r\n  width: 200px;\r\n  align-items: center;\r\n  margin: 10px 0;\r\n  justify-content: space-between;\r\n}\r\n\r\n.Controller_controller__j07yb {\r\n  display: flex;\r\n  align-items: center;\r\n}\r\n\r\n.Controller_label__1q04n {\r\n  text-transform: capitalize;\r\n}\r\n\r\n.Controller_qty__nppQO {\r\n  margin: 0 10px;\r\n}\r\n\r\n.Controller_removeButton__2bwzI, .Controller_addButton__3Lo07 {\r\n  width: 25px;\r\n  height: 25px;\r\n  border-radius: 5px;\r\n  cursor: pointer;\r\n  outline: 0;\r\n}\r\n\r\n.Controller_addButton__3Lo07 {\r\n  background-color: #8f6414;\r\n  border: 2px solid #8f6414;\r\n}\r\n\r\n.Controller_removeButton__2bwzI {\r\n  background-color: orange;\r\n  border: 2px solid #8f6414;\r\n}\r\n\r\n.Controller_addIcon__2rpYg, .Controller_removeIcon__3mtPa {\r\n  font-weight: bold;\r\n  font-size: 20px;\r\n}\r\n\r\n.Controller_removeIcon__3mtPa {\r\n  color: #8f6414;\r\n}\r\n\r\n.Controller_addIcon__2rpYg {\r\n  color: white;\r\n}", ""]);
+// Exports
+exports.locals = {
+	"container": "Controller_container__1KQhF",
+	"controller": "Controller_controller__j07yb",
+	"label": "Controller_label__1q04n",
+	"qty": "Controller_qty__nppQO",
+	"removeButton": "Controller_removeButton__2bwzI",
+	"addButton": "Controller_addButton__3Lo07",
+	"addIcon": "Controller_addIcon__2rpYg",
+	"removeIcon": "Controller_removeIcon__3mtPa"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Burger/Burger.module.css":
+/*!****************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Burger/Burger.module.css ***!
+  \****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".Burger_burger__3_ylo {\r\n  width: 100%;\r\n  margin: 100px auto 50px auto;\r\n  padding: 0 20px;\r\n}\r\n\r\n@media screen and (min-width: 300px) {\r\n  .Burger_burger__3_ylo {\r\n    width: 300px;\r\n  }\r\n}\r\n\r\n.Burger_label__5oSgK {\r\n  text-align: center;\r\n}", ""]);
+// Exports
+exports.locals = {
+	"burger": "Burger_burger__3_ylo",
+	"label": "Burger_label__5oSgK"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Burger/BurgerIngredient/BurgerIngredient.module.css":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Burger/BurgerIngredient/BurgerIngredient.module.css ***!
+  \*******************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".BurgerIngredient_breadTop__oT5y7, .BurgerIngredient_breadBottom__3FjUd, .BurgerIngredient_salad__3ot66, .BurgerIngredient_meat__Z16c0, .BurgerIngredient_bacon__3pr9C, .BurgerIngredient_cheese__e_vS_ {\r\n  width: 100%;\r\n  margin: 4px auto;\r\n}\r\n\r\n.BurgerIngredient_breadTop__oT5y7 {\r\n  height: 100px;\r\n  margin: 0;\r\n}\r\n\r\n.BurgerIngredient_breadBottom__3FjUd {\r\n  height: 50px;\r\n  margin: 0;\r\n}\r\n\r\n.BurgerIngredient_salad__3ot66 {\r\n  height: 10px;\r\n  background-color: #5bac66;\r\n  border-radius: 100px;\r\n}\r\n\r\n.BurgerIngredient_meat__Z16c0 {\r\n  height: 20px;\r\n  width: 95%;\r\n  background-color: #804f2f;\r\n  border-radius: 7px;\r\n}\r\n\r\n.BurgerIngredient_bacon__3pr9C {\r\n  height: 10px;\r\n  width: 90%;\r\n  background-color: #e71717;\r\n  border-radius: 100px;\r\n}\r\n\r\n.BurgerIngredient_cheese__e_vS_ {\r\n  height: 10px;\r\n  background-color: #ffd900;\r\n  border-radius: 100px;\r\n}", ""]);
+// Exports
+exports.locals = {
+	"breadTop": "BurgerIngredient_breadTop__oT5y7",
+	"breadBottom": "BurgerIngredient_breadBottom__3FjUd",
+	"salad": "BurgerIngredient_salad__3ot66",
+	"meat": "BurgerIngredient_meat__Z16c0",
+	"bacon": "BurgerIngredient_bacon__3pr9C",
+	"cheese": "BurgerIngredient_cheese__e_vS_"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Checkout/Checkout.module.css":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Checkout/Checkout.module.css ***!
+  \********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".Checkout_checkout__1shY1 {\r\n  background-color: orange;\r\n  text-align: center;\r\n  padding: 20px 0;\r\n}\r\n\r\n.Checkout_form__2YEun {\r\n  margin: 20px auto 0 auto;\r\n  max-width: 400px;\r\n  padding: 0 10px;\r\n}\r\n\r\n.Checkout_heading__17mC-, .Checkout_label__3-UKf {\r\n  color: #524a3b;\r\n}\r\n\r\n.Checkout_formGrp__3wMwa {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: flex-start;\r\n}\r\n\r\n.Checkout_label__3-UKf {\r\n  font-size: 12px;\r\n  font-weight: bold;\r\n  margin-bottom: 3px;\r\n}\r\n\r\n.Checkout_input__22XXy {\r\n  width: 100%;\r\n  margin-bottom: 10px;\r\n  outline: 0;\r\n  padding: 9px 13px;\r\n  border-radius: 5px;\r\n  border: 0;\r\n  color: #524a3b;\r\n}\r\n\r\n.Checkout_orderButton__2hkPj {\r\n  background-color: #8f6414;\r\n  border: 0;\r\n  border-radius: 10px;\r\n  padding: 13px 20px;\r\n  font-weight: bold;\r\n  color: white;\r\n  margin-top: 10px;\r\n  cursor: pointer;\r\n  outline: 0;\r\n}\r\n\r\n.Checkout_orderButton__2hkPj:disabled {\r\n  background-color: gray;\r\n  cursor: default;\r\n}", ""]);
+// Exports
+exports.locals = {
+	"checkout": "Checkout_checkout__1shY1",
+	"form": "Checkout_form__2YEun",
+	"heading": "Checkout_heading__17mC-",
+	"label": "Checkout_label__3-UKf",
+	"formGrp": "Checkout_formGrp__3wMwa",
+	"input": "Checkout_input__22XXy",
+	"orderButton": "Checkout_orderButton__2hkPj"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Navigation/Drawer/Drawer.module.css":
+/*!***************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Navigation/Drawer/Drawer.module.css ***!
+  \***************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".Drawer_drawer__1GV60 {\r\n  width: 75%;\r\n  height: 100%;\r\n  box-shadow: 0px 3px 8px #444;\r\n  background-color: white;\r\n  top: 0;\r\n  position: fixed;\r\n  z-index: 300;\r\n  left: 0;\r\n  border-top: 6px solid orange;\r\n}\r\n\r\n@media screen and (min-width: 540px) {\r\n  .Drawer_drawer__1GV60 {\r\n    display: none;\r\n  }\r\n}\r\n\r\n.Drawer_header__MXYCd {\r\n  display: flex;\r\n  flex-direction: column;\r\n  padding: 0 10px;\r\n  margin-top: 5px;\r\n}\r\n\r\n.Drawer_header__MXYCd h1 {\r\n  margin-left: 6px;\r\n  margin-top: 20px;\r\n}\r\n\r\n.Drawer_closeIcon__OKnjs {\r\n  align-self: flex-end;\r\n  font-weight: bold;\r\n}\r\n\r\n.Drawer_menu__rteZq {\r\n  display: flex;\r\n  flex-direction: column;\r\n  padding-left: 16px;\r\n  margin-top: 10px;\r\n  list-style-type: none;\r\n}\r\n\r\n.Drawer_menu__rteZq a {\r\n  text-decoration: none;\r\n  padding: 5px 15px;\r\n  margin-top: 10px;\r\n  color: #666;\r\n  font-size: 14px;\r\n  border-left: 4px solid white;\r\n}\r\n\r\n.Drawer_menu__rteZq a.Drawer_active__1nlGH,\r\n.Drawer_menu__rteZq a:hover,\r\n.Drawer_menu__rteZq a:active {\r\n  border-left: 4px solid orange;\r\n}", ""]);
+// Exports
+exports.locals = {
+	"drawer": "Drawer_drawer__1GV60",
+	"header": "Drawer_header__MXYCd",
+	"closeIcon": "Drawer_closeIcon__OKnjs",
+	"menu": "Drawer_menu__rteZq",
+	"active": "Drawer_active__1nlGH"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Navigation/Toolbar/Toolbar.module.css":
+/*!*****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Navigation/Toolbar/Toolbar.module.css ***!
+  \*****************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".Toolbar_toolbar__2jz7v {\r\n  width: 100%;\r\n  height: 50px;\r\n  position: fixed;\r\n  top: 0px;\r\n  left: 0;\r\n  padding: 5px 30px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  background-color: orange;\r\n}\r\n\r\n@media screen and (min-width: 540px) {\r\n  .Toolbar_toolbar__2jz7v {\r\n    padding: 5px 100px;\r\n  }\r\n}\r\n\r\n.Toolbar_menuButton__3xQgO {\r\n  background-color: orange;\r\n  border: 0;\r\n  outline: 0;\r\n}\r\n\r\n@media screen and (min-width: 540px) {\r\n  .Toolbar_menuButton__3xQgO {\r\n    visibility: hidden;\r\n  }\r\n}\r\n\r\n.Toolbar_menuButton__3xQgO span {\r\n  font-weight: bold;\r\n  color: #fff;\r\n  font-size: 30px;\r\n  cursor: pointer;\r\n}\r\n\r\n.Toolbar_menu__3bFWM {\r\n  display: none;\r\n  list-style-type: none;\r\n}\r\n\r\n@media screen and (min-width: 540px) {\r\n  .Toolbar_menu__3bFWM {\r\n    display: flex;\r\n  }\r\n}\r\n\r\n.Toolbar_menu__3bFWM a {\r\n  text-decoration: none;\r\n  color: white;\r\n  margin-left: 20px;\r\n}\r\n\r\n.Toolbar_menu__3bFWM a:hover {\r\n  font-weight: bold;\r\n}\r\n\r\n.Toolbar_active__3PSR3 {\r\n  font-weight: bold;\r\n}", ""]);
+// Exports
+exports.locals = {
+	"toolbar": "Toolbar_toolbar__2jz7v",
+	"menuButton": "Toolbar_menuButton__3xQgO",
+	"menu": "Toolbar_menu__3bFWM",
+	"active": "Toolbar_active__3PSR3"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/OrderSummary/OrderSummary.module.css":
+/*!****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/OrderSummary/OrderSummary.module.css ***!
+  \****************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".OrderSummary_description__3HR75 {\r\n  margin: 20px 0px;\r\n}\r\n\r\n.OrderSummary_ingredientsList__30UrM {\r\n  margin-left: 50px;\r\n  text-transform: capitalize;\r\n}\r\n\r\n.OrderSummary_price__39Cyv {\r\n  margin-top: 10px;\r\n}", ""]);
+// Exports
+exports.locals = {
+	"description": "OrderSummary_description__3HR75",
+	"ingredientsList": "OrderSummary_ingredientsList__30UrM",
+	"price": "OrderSummary_price__39Cyv"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Orders/Order/Order.module.css":
+/*!*********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Orders/Order/Order.module.css ***!
+  \*********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".Order_order__1Rl2j {\r\n  width: 100%;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.Order_orderID__1hYdl {\r\n  background-color: orange;\r\n  color: white;\r\n  align-self: flex-start;\r\n  text-align: center;\r\n  padding: 7px 20px;\r\n  border-radius: 10px 10px 0 0;\r\n}\r\n\r\n.Order_orderData__3OCQO {\r\n  background-color: #eee;\r\n  padding: 10px;\r\n  margin-bottom: 40px;\r\n  border-bottom: 3px solid orange;\r\n}\r\n\r\n.Order_orderRow__3Xfcc {\r\n  display: flex;\r\n  border-bottom: 1px solid #ccc;\r\n  align-items: center;\r\n  padding: 10px;\r\n}\r\n\r\n.Order_orderRow__3Xfcc:last-of-type {\r\n  border: 0;\r\n}\r\n\r\n.Order_orderRow__3Xfcc h4 {\r\n  flex: 1 1;\r\n}\r\n\r\n.Order_orderRow__3Xfcc p {\r\n  flex: 2 1;\r\n}\r\n\r\n.Order_ingredients__3kU3W {\r\n  flex: 2 1;\r\n  margin-left: 27px;\r\n}", ""]);
+// Exports
+exports.locals = {
+	"order": "Order_order__1Rl2j",
+	"orderID": "Order_orderID__1hYdl",
+	"orderData": "Order_orderData__3OCQO",
+	"orderRow": "Order_orderRow__3Xfcc",
+	"ingredients": "Order_ingredients__3kU3W"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Orders/Orders.module.css":
+/*!****************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Orders/Orders.module.css ***!
+  \****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".Orders_orders__1XsZr {\r\n  margin: 100px auto 0 auto;\r\n}\r\n\r\n.Orders_heading__3Lf6- {\r\n  text-align: center;\r\n}\r\n\r\n.Orders_orderList__Qf2QC {\r\n  max-width: 1000px;\r\n  padding: 10px;\r\n  margin: 10px auto;\r\n}", ""]);
+// Exports
+exports.locals = {
+	"orders": "Orders_orders__1XsZr",
+	"heading": "Orders_heading__3Lf6-",
+	"orderList": "Orders_orderList__Qf2QC"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/SignUser/SignUser.module.css":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/SignUser/SignUser.module.css ***!
+  \********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".SignUser_signUser__BnZya {\r\n  padding: 0 10px;\r\n}\r\n\r\n.SignUser_form__3TfEm {\r\n  max-width: 400px;\r\n  margin: 100px auto 30px auto;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.SignUser_error__3Jw71 {\r\n  background-color: #ff000033;\r\n  color: red;\r\n  border: 1px solid red;\r\n  padding: 10px;\r\n  border-radius: 5px;\r\n  margin-bottom: 10px;\r\n  font-size: 13px;\r\n}\r\n\r\n.SignUser_heading__3uGEy {\r\n  margin-bottom: 20px;\r\n  text-align: center;\r\n  color: #666;\r\n}\r\n\r\n.SignUser_formGroup__2JpIU {\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin-bottom: 10px;\r\n}\r\n\r\n.SignUser_label__23a2B {\r\n  font-size: 13px;\r\n  font-weight: bold;\r\n  color: #666;\r\n  margin-bottom: 5px;\r\n}\r\n\r\n.SignUser_input__3QtgA {\r\n  padding: 10px 10px;\r\n  border: 1px solid #aaa;\r\n  border-radius: 5px;\r\n  outline: 0;\r\n}\r\n\r\n.SignUser_input__3QtgA:hover, .SignUser_input__3QtgA:focus {\r\n  border-color: orange;\r\n}\r\n\r\n.SignUser_desc__3VUuv {\r\n  align-self: center;\r\n  font-size: 13px;\r\n  margin-top: 10px;\r\n}\r\n\r\n.SignUser_desc__3VUuv span {\r\n  font-size: 16px;\r\n  font-weight: bold;\r\n  color: orange;\r\n  cursor: pointer;\r\n  margin-left: 10px;\r\n}\r\n\r\n.SignUser_button__3djdA {\r\n  padding: 10px 30px;\r\n  border: 0;\r\n  border: 0;\r\n  margin-top: 20px;\r\n  background-color: orange;\r\n  color: white;\r\n  border-radius: 5px;\r\n  font-weight: bold;\r\n  cursor: pointer;\r\n  align-self: center;\r\n  outline: 0;\r\n  font-size: 16px;\r\n}", ""]);
+// Exports
+exports.locals = {
+	"signUser": "SignUser_signUser__BnZya",
+	"form": "SignUser_form__3TfEm",
+	"error": "SignUser_error__3Jw71",
+	"heading": "SignUser_heading__3uGEy",
+	"formGroup": "SignUser_formGroup__2JpIU",
+	"label": "SignUser_label__23a2B",
+	"input": "SignUser_input__3QtgA",
+	"desc": "SignUser_desc__3VUuv",
+	"button": "SignUser_button__3djdA"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Backdrop/Backdrop.module.css":
+/*!***********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/UI/Backdrop/Backdrop.module.css ***!
+  \***********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".Backdrop_backdrop__MMFHf {\r\n  width: 100%;\r\n  height: 100%;\r\n  background-color: #000000;\r\n  opacity: 0.5;\r\n  position: fixed;\r\n  z-index: 50;\r\n  top: 0;\r\n  left: 0;\r\n}", ""]);
+// Exports
+exports.locals = {
+	"backdrop": "Backdrop_backdrop__MMFHf"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Button/Button.module.css":
+/*!*******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/UI/Button/Button.module.css ***!
+  \*******************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".Button_button__3QinR {\r\n  background-color: white;\r\n  border: 0;\r\n  outline: 0;\r\n  font-weight: bold;\r\n  cursor: pointer;\r\n  margin-right: 30px;\r\n}\r\n\r\n.Button_success__16ZrX {\r\n  color: #5cb85c;\r\n}\r\n\r\n.Button_danger__2pl7b {\r\n  color: #d9534f;\r\n}", ""]);
+// Exports
+exports.locals = {
+	"button": "Button_button__3QinR",
+	"success": "Button_success__16ZrX",
+	"danger": "Button_danger__2pl7b"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Loader/Loader.module.css":
+/*!*******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/UI/Loader/Loader.module.css ***!
+  \*******************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".Loader_loader__JH7CJ {\r\n  position: fixed;\r\n  width: 100%;\r\n  height: 100%;\r\n  top: 0;\r\n  left: 0;\r\n  background-color: #00000088;\r\n}\r\n\r\n.Loader_ldsDualRing__2DvsV {\r\n  display: inline-block;\r\n  width: 80px;\r\n  height: 80px;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  position: fixed;\r\n  z-index: 100;\r\n}\r\n\r\n.Loader_ldsDualRing__2DvsV:after {\r\n  content: \" \";\r\n  display: block;\r\n  width: 64px;\r\n  height: 64px;\r\n  margin: 8px;\r\n  border-radius: 50%;\r\n  border: 6px solid orange;\r\n  border-color: orange transparent orange transparent;\r\n  animation: Loader_lds-dual-ring__16BAl 1.2s linear infinite;\r\n}\r\n\r\n@keyframes Loader_lds-dual-ring__16BAl {\r\n  0% {\r\n    transform: rotate(0deg);\r\n  }\r\n  100% {\r\n    transform: rotate(360deg);\r\n  }\r\n}\r\n", ""]);
+// Exports
+exports.locals = {
+	"loader": "Loader_loader__JH7CJ",
+	"ldsDualRing": "Loader_ldsDualRing__2DvsV",
+	"lds-dual-ring": "Loader_lds-dual-ring__16BAl"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Modal/Modal.module.css":
+/*!*****************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/UI/Modal/Modal.module.css ***!
+  \*****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".Modal_modal__1V1Wo {\r\n  width: 90%;\r\n  border-radius: 4px;\r\n  padding: 30px 20px;\r\n  box-shadow: 3px 3px 8px #888;\r\n  position: fixed;\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  z-index: 100;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  background-color: white;\r\n  border: 1px solid #aaa;\r\n}\r\n\r\n@media screen and (min-width: 720px) {\r\n  .Modal_modal__1V1Wo {\r\n    width: 70%;\r\n  }\r\n}\r\n\r\n@media screen and (min-width: 1024px) {\r\n  .Modal_modal__1V1Wo {\r\n    width: 50%;\r\n  }\r\n}", ""]);
+// Exports
+exports.locals = {
+	"modal": "Modal_modal__1V1Wo"
+};
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "* {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  font-family: 'Open Sans', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-size: 12px;\n}\n\n@media screen and (min-width: 540px) {\n  body {\n    font-size: 16px;\n  }\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./src/App.css":
+/*!*********************!*\
+  !*** ./src/App.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _redux_store__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./redux/store */ "./src/redux/store.js");
+/* harmony import */ var _components_Layout_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Layout/Layout */ "./src/components/Layout/Layout.js");
+/* harmony import */ var _containers_BurgerBuilder_BurgerBuilder2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./containers/BurgerBuilder/BurgerBuilder2 */ "./src/containers/BurgerBuilder/BurgerBuilder2.js");
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\App.js";
+
+
+
+
+
+
+
+
+function App() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "App",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_2__["Provider"], {
+    store: _redux_store__WEBPACK_IMPORTED_MODULE_4__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/burger",
+    component: _containers_BurgerBuilder_BurgerBuilder2__WEBPACK_IMPORTED_MODULE_6__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 13
+    }
+  })))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/assets/burger-bun-bottom.png":
+/*!******************************************!*\
+  !*** ./src/assets/burger-bun-bottom.png ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/burger-bun-bottom.7408ebd2.png";
+
+/***/ }),
+
+/***/ "./src/assets/burger-bun-top.png":
+/*!***************************************!*\
+  !*** ./src/assets/burger-bun-top.png ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/burger-bun-top.1b3a6fad.png";
+
+/***/ }),
+
+/***/ "./src/assets/logo.png":
+/*!*****************************!*\
+  !*** ./src/assets/logo.png ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/logo.75ebacf0.png";
+
+/***/ }),
+
+/***/ "./src/components/BuildControllers/BuildController.js":
+/*!************************************************************!*\
+  !*** ./src/components/BuildControllers/BuildController.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../redux */ "./src/redux/index.js");
+/* harmony import */ var _BuildController_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./BuildController.module.css */ "./src/components/BuildControllers/BuildController.module.css");
+/* harmony import */ var _BuildController_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_BuildController_module_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Controller_Controller__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Controller/Controller */ "./src/components/BuildControllers/Controller/Controller.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_5__);
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\BuildControllers\\BuildController.js";
+
+
+
+
+
+
+
+const BuildController = props => {
+  const keys = Object.keys(props.burger.ingredients);
+  const domArray = [];
+  keys.forEach(key => {
+    domArray.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Controller_Controller__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      key: key,
+      type: key,
+      qty: props.burger.ingredients[key],
+      addIngredient: props.addIngredient,
+      removeIngredient: props.removeIngredient,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 7
+      }
+    }));
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _BuildController_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.container,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: _BuildController_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.price,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 7
+    }
+  }, "Total Price : $", props.burger.totalPrice.toFixed(2)), domArray, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: props.toggleOrderModal,
+    className: _BuildController_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.orderButton,
+    disabled: props.burger.totalIngredients === 0,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 7
+    }
+  }, "CHECKOUT"));
+};
+
+BuildController.propTypes = {
+  toggleOrderModal: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.func.isRequired
+};
+
+const mapStateToProps = state => {
+  return {
+    burger: state.burger
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    addIngredient: ingredient => dispatch(Object(_redux__WEBPACK_IMPORTED_MODULE_2__["addIngredient"])(ingredient)),
+    removeIngredient: ingredient => dispatch(Object(_redux__WEBPACK_IMPORTED_MODULE_2__["removeIngredient"])(ingredient))
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(BuildController));
+
+/***/ }),
+
+/***/ "./src/components/BuildControllers/BuildController.module.css":
+/*!********************************************************************!*\
+  !*** ./src/components/BuildControllers/BuildController.module.css ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./BuildController.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/BuildControllers/BuildController.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./BuildController.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/BuildControllers/BuildController.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./BuildController.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/BuildControllers/BuildController.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/BuildControllers/Controller/Controller.js":
+/*!******************************************************************!*\
+  !*** ./src/components/BuildControllers/Controller/Controller.js ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Controller_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Controller.module.css */ "./src/components/BuildControllers/Controller/Controller.module.css");
+/* harmony import */ var _Controller_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Controller_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\BuildControllers\\Controller\\Controller.js";
+
+
+
+
+const Controller = props => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Controller_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.container,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    className: _Controller_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.label,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 7
+    }
+  }, props.type), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Controller_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.controller,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: () => props.removeIngredient(props.type),
+    className: _Controller_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.removeButton,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "material-icons " + _Controller_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.removeIcon,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 11
+    }
+  }, "remove")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    className: _Controller_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.qty,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 9
+    }
+  }, props.qty), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: () => props.addIngredient(props.type),
+    className: _Controller_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.addButton,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "material-icons " + _Controller_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.addIcon,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 11
+    }
+  }, "add"))));
+};
+
+Controller.protoTypes = {
+  type: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired,
+  removeIngredient: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
+  addIngredient: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired,
+  qty: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (Controller);
+
+/***/ }),
+
+/***/ "./src/components/BuildControllers/Controller/Controller.module.css":
+/*!**************************************************************************!*\
+  !*** ./src/components/BuildControllers/Controller/Controller.module.css ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Controller.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/BuildControllers/Controller/Controller.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Controller.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/BuildControllers/Controller/Controller.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Controller.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/BuildControllers/Controller/Controller.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Burger/Burger.js":
+/*!*****************************************!*\
+  !*** ./src/components/Burger/Burger.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _Burger_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Burger.module.css */ "./src/components/Burger/Burger.module.css");
+/* harmony import */ var _Burger_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Burger_module_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _BurgerIngredient_BurgerIngredient__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./BurgerIngredient/BurgerIngredient */ "./src/components/Burger/BurgerIngredient/BurgerIngredient.js");
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\Burger\\Burger.js";
+
+
+
+
+
+const Burger = props => {
+  const keys = Object.keys(props.burger.ingredients);
+  const domArray = [];
+  keys.forEach(key => {
+    for (let i = 1; i <= props.burger.ingredients[key]; i++) {
+      domArray.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BurgerIngredient_BurgerIngredient__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        key: key + i,
+        type: key,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 21
+        }
+      }));
+    }
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Burger_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.burger,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BurgerIngredient_BurgerIngredient__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    type: "bread-top",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }), domArray.length > 0 ? domArray : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    className: _Burger_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.label,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 42
+    }
+  }, "Please start adding ingredients!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BurgerIngredient_BurgerIngredient__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    type: "bread-bottom",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }));
+};
+
+const mapStateToProps = state => {
+  return {
+    burger: state.burger
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, null)(Burger));
+
+/***/ }),
+
+/***/ "./src/components/Burger/Burger.module.css":
+/*!*************************************************!*\
+  !*** ./src/components/Burger/Burger.module.css ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Burger.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Burger/Burger.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Burger.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Burger/Burger.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Burger.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Burger/Burger.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Burger/BurgerIngredient/BurgerIngredient.js":
+/*!********************************************************************!*\
+  !*** ./src/components/Burger/BurgerIngredient/BurgerIngredient.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _BurgerIngredient_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BurgerIngredient.module.css */ "./src/components/Burger/BurgerIngredient/BurgerIngredient.module.css");
+/* harmony import */ var _BurgerIngredient_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_BurgerIngredient_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _assets_burger_bun_top_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../assets/burger-bun-top.png */ "./src/assets/burger-bun-top.png");
+/* harmony import */ var _assets_burger_bun_top_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_burger_bun_top_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _assets_burger_bun_bottom_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../assets/burger-bun-bottom.png */ "./src/assets/burger-bun-bottom.png");
+/* harmony import */ var _assets_burger_bun_bottom_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_burger_bun_bottom_png__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\Burger\\BurgerIngredient\\BurgerIngredient.js";
+
+
+
+
+
+
+const BurgerIngredient = props => {
+  let ingredient = null;
+
+  switch (props.type) {
+    case 'bread-bottom':
+      ingredient = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: _BurgerIngredient_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.breadBottom,
+        src: _assets_burger_bun_bottom_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+        alt: "Bread Bottom",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 20
+        }
+      });
+      break;
+
+    case 'bread-top':
+      ingredient = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: _BurgerIngredient_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.breadTop,
+        src: _assets_burger_bun_top_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+        alt: "Bread Bottom",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15,
+          columnNumber: 20
+        }
+      });
+      break;
+
+    case 'meat':
+      ingredient = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _BurgerIngredient_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.meat,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 20
+        }
+      }); // ingredient = <img className={style.meat} src={meatPic} alt="Meat" />
+
+      break;
+
+    case 'bacon':
+      ingredient = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _BurgerIngredient_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bacon,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 20
+        }
+      }); // ingredient = <img className={style.bacon} src={baconPic} alt="Bacon" />
+
+      break;
+
+    case 'cheese':
+      ingredient = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _BurgerIngredient_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.cheese,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 20
+        }
+      }); // ingredient = <img className={style.cheese} src={cheesePic} alt="Cheese" />
+
+      break;
+
+    case 'salad':
+      ingredient = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _BurgerIngredient_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.salad,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 20
+        }
+      });
+      break;
+
+    default:
+      ingredient = null;
+  }
+
+  return ingredient;
+};
+
+BurgerIngredient.propTypes = {
+  type: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (BurgerIngredient);
+
+/***/ }),
+
+/***/ "./src/components/Burger/BurgerIngredient/BurgerIngredient.module.css":
+/*!****************************************************************************!*\
+  !*** ./src/components/Burger/BurgerIngredient/BurgerIngredient.module.css ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./BurgerIngredient.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Burger/BurgerIngredient/BurgerIngredient.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./BurgerIngredient.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Burger/BurgerIngredient/BurgerIngredient.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./BurgerIngredient.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Burger/BurgerIngredient/BurgerIngredient.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Checkout/Checkout.js":
+/*!*********************************************!*\
+  !*** ./src/components/Checkout/Checkout.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../redux */ "./src/redux/index.js");
+/* harmony import */ var _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Checkout.module.css */ "./src/components/Checkout/Checkout.module.css");
+/* harmony import */ var _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Checkout_module_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _utils_axios_db__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../utils/axios/db */ "./src/utils/axios/db.js");
+/* harmony import */ var _UI_Loader_Loader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../UI/Loader/Loader */ "./src/components/UI/Loader/Loader.js");
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\Checkout\\Checkout.js";
+
+
+
+
+
+
+
+const Checkout = props => {
+  let formRef = null;
+  const order = {
+    ingredients: { ...props.burger.ingredients
+    },
+    price: props.burger.totalPrice.toFixed(2)
+  };
+  const [loading, setLoading] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
+
+  const orderHandler = async event => {
+    event.preventDefault();
+    setLoading(true);
+    formRef.reset();
+    await _utils_axios_db__WEBPACK_IMPORTED_MODULE_4__["default"].post('/orders.json', order);
+    props.resetBurger();
+    props.history.replace('/orders');
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 5
+    }
+  }, loading ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Loader_Loader__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    withBackdrop: true,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 18
+    }
+  }) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.checkout,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.heading,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 9
+    }
+  }, "CHECKOUT"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    ref: ref => formRef = ref,
+    onSubmit: orderHandler,
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.form,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.formGrp,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "name",
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.label,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 13
+    }
+  }, "Full Name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    onChange: event => order.name = event.target.value,
+    type: "text",
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.input,
+    name: "name",
+    placeholder: "Enter name",
+    required: true,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 13
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.formGrp,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "email",
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.label,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 13
+    }
+  }, "Email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    onChange: event => order.email = event.target.value,
+    type: "email",
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.input,
+    name: "email",
+    placeholder: "Enter email",
+    required: true,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 13
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.formGrp,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "mobile",
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.label,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 13
+    }
+  }, "Mobile"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    onChange: event => order.mobile = event.target.value,
+    type: "text",
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.input,
+    name: "mobile",
+    minLength: "10",
+    maxLength: "10",
+    placeholder: "Enter mobile no.",
+    required: true,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.formGrp,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "address",
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.label,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 13
+    }
+  }, "Address"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    onChange: event => order.address = event.target.value,
+    type: "text",
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.input,
+    name: "address",
+    placeholder: "Enter address",
+    required: true,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 13
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: orderHandler,
+    className: _Checkout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.orderButton,
+    disabled: props.burger.totalIngredients === 0,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 11
+    }
+  }, "ORDER NOW"))));
+};
+
+const mapStateToProps = state => {
+  return {
+    burger: state.burger
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    resetBurger: () => dispatch(Object(_redux__WEBPACK_IMPORTED_MODULE_2__["resetBurger"])())
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(Checkout));
+
+/***/ }),
+
+/***/ "./src/components/Checkout/Checkout.module.css":
+/*!*****************************************************!*\
+  !*** ./src/components/Checkout/Checkout.module.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Checkout.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Checkout/Checkout.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Checkout.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Checkout/Checkout.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Checkout.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Checkout/Checkout.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Layout/Layout.js":
+/*!*****************************************!*\
+  !*** ./src/components/Layout/Layout.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Navigation_Toolbar_Toolbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Navigation/Toolbar/Toolbar */ "./src/components/Navigation/Toolbar/Toolbar.js");
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\Layout\\Layout.js";
+
+
+
+const Layout = props => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navigation_Toolbar_Toolbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 11
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 11
+    }
+  }, props.children));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
+/***/ "./src/components/Logout/Logout.js":
+/*!*****************************************!*\
+  !*** ./src/components/Logout/Logout.js ***!
+  \*****************************************/
+/*! exports provided: Logout, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Logout", function() { return Logout; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _UI_Loader_Loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../UI/Loader/Loader */ "./src/components/UI/Loader/Loader.js");
+/* harmony import */ var _redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../redux */ "./src/redux/index.js");
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\Logout\\Logout.js";
+
+
+
+
+class Logout extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  componentDidMount() {
+    setTimeout(() => {
+      this.props.logout();
+      this.props.history.replace('/');
+    }, 3000);
+  }
+
+  render() {
+    console.log(this.props);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Loader_Loader__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 7
+      }
+    });
+  }
+
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+    logout: () => dispatch(Object(_redux__WEBPACK_IMPORTED_MODULE_3__["logout"])())
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(null, mapDispatchToProps)(Logout));
+
+/***/ }),
+
+/***/ "./src/components/Navigation/Drawer/Drawer.js":
+/*!****************************************************!*\
+  !*** ./src/components/Navigation/Drawer/Drawer.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Drawer_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Drawer.module.css */ "./src/components/Navigation/Drawer/Drawer.module.css");
+/* harmony import */ var _Drawer_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Drawer_module_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _UI_Backdrop_Backdrop__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../UI/Backdrop/Backdrop */ "./src/components/UI/Backdrop/Backdrop.js");
+/* harmony import */ var _assets_logo_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../assets/logo.png */ "./src/assets/logo.png");
+/* harmony import */ var _assets_logo_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_logo_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\Navigation\\Drawer\\Drawer.js";
+
+
+
+
+
+
+
+
+const Drawer = props => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Backdrop_Backdrop__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 7
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Drawer_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.drawer,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Drawer_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.header,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    onClick: props.toggleDrawer,
+    className: "material-icons " + _Drawer_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.closeIcon,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 11
+    }
+  }, "close"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_logo_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    width: "150",
+    alt: "Logo",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 11
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 11
+    }
+  }, "Menu")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: _Drawer_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.menu,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["NavLink"], {
+    to: "/",
+    exact: true,
+    activeClassName: _Drawer_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.active,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    onClick: props.toggleDrawer,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 71
+    }
+  }, "Burger Builder")), props.isLoggedIn ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["NavLink"], {
+    to: "/orders",
+    activeClassName: _Drawer_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.active,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 32
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    onClick: props.toggleDrawer,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 85
+    }
+  }, "Orders")) : null, props.isLoggedIn ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["NavLink"], {
+    to: "/logout",
+    activeClassName: _Drawer_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.active,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 32
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    onClick: props.toggleDrawer,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 85
+    }
+  }, "Logout")) : null, !props.isLoggedIn ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["NavLink"], {
+    to: "/auth",
+    activeClassName: _Drawer_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.active,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 33
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    onClick: props.toggleDrawer,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 84
+    }
+  }, "Authentication")) : null)));
+};
+
+Drawer.propTypes = {
+  toggleDrawer: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+};
+
+const mapStateToProps = state => {
+  return {
+    isLoggedIn: state.auth.user.idToken ? true : false
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_6__["connect"])(mapStateToProps, null)(Drawer));
+
+/***/ }),
+
+/***/ "./src/components/Navigation/Drawer/Drawer.module.css":
+/*!************************************************************!*\
+  !*** ./src/components/Navigation/Drawer/Drawer.module.css ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Drawer.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Navigation/Drawer/Drawer.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Drawer.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Navigation/Drawer/Drawer.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Drawer.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Navigation/Drawer/Drawer.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Navigation/Toolbar/Toolbar.js":
+/*!******************************************************!*\
+  !*** ./src/components/Navigation/Toolbar/Toolbar.js ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _Toolbar_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Toolbar.module.css */ "./src/components/Navigation/Toolbar/Toolbar.module.css");
+/* harmony import */ var _Toolbar_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Toolbar_module_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Drawer_Drawer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Drawer/Drawer */ "./src/components/Navigation/Drawer/Drawer.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\Navigation\\Toolbar\\Toolbar.js";
+
+
+
+
+
+
+const Toolbar = props => {
+  const [drawerVisibility, toggleDrawer] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
+
+  const toggleDrawerHandler = () => {
+    toggleDrawer(!drawerVisibility);
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 5
+    }
+  }, drawerVisibility ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Drawer_Drawer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    toggleDrawer: toggleDrawerHandler,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 27
+    }
+  }) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Toolbar_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.toolbar,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: toggleDrawerHandler,
+    className: _Toolbar_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.menuButton,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "material-icons",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 11
+    }
+  }, "menu")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: _Toolbar_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.menu,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["NavLink"], {
+    to: "/",
+    exact: true,
+    activeClassName: _Toolbar_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.active,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 71
+    }
+  }, "Burger Builder")), props.isLoggedIn ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["NavLink"], {
+    to: "/orders",
+    activeClassName: _Toolbar_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.active,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 32
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 86
+    }
+  }, "Orders")) : null, !props.isLoggedIn ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["NavLink"], {
+    to: "/auth",
+    activeClassName: _Toolbar_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.active,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 33
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 85
+    }
+  }, "Authentication")) : null, props.isLoggedIn ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["NavLink"], {
+    to: "/logout",
+    activeClassName: _Toolbar_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.active,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 32
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 86
+    }
+  }, "Logout")) : null)));
+};
+
+const mapStateToProps = state => {
+  return {
+    isLoggedIn: state.auth.user.idToken ? true : false
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, null)(Toolbar));
+
+/***/ }),
+
+/***/ "./src/components/Navigation/Toolbar/Toolbar.module.css":
+/*!**************************************************************!*\
+  !*** ./src/components/Navigation/Toolbar/Toolbar.module.css ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Toolbar.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Navigation/Toolbar/Toolbar.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Toolbar.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Navigation/Toolbar/Toolbar.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Toolbar.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Navigation/Toolbar/Toolbar.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/OrderSummary/OrderSummary.js":
+/*!*****************************************************!*\
+  !*** ./src/components/OrderSummary/OrderSummary.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _OrderSummary_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./OrderSummary.module.css */ "./src/components/OrderSummary/OrderSummary.module.css");
+/* harmony import */ var _OrderSummary_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_OrderSummary_module_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _UI_Button_Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../UI/Button/Button */ "./src/components/UI/Button/Button.js");
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\OrderSummary\\OrderSummary.js";
+
+
+
+
+
+
+const OrderSummary = props => {
+  const keys = Object.keys(props.burger.ingredients);
+  const domArray = keys.map(key => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    key: key,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 36
+    }
+  }, key, ": ", props.burger.ingredients[key]));
+
+  const continueClickHandler = () => {
+    props.history.push('/checkout');
+    props.toggleOrderModal();
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }, "Your Order"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: _OrderSummary_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.description,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }, "A delecios order with following ingredients:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: _OrderSummary_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.ingredientsList,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, domArray), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    className: _OrderSummary_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.price,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 9
+    }
+  }, "Total Price : $", props.burger.totalPrice.toFixed(2)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: _OrderSummary_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.description,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 7
+    }
+  }, "Continue to checkout?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Button_Button__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    clickHandler: continueClickHandler,
+    type: "success",
+    name: "CONTINUE",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 7
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Button_Button__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    clickHandler: props.toggleOrderModal,
+    type: "danger",
+    name: "CANCEL",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 7
+    }
+  }));
+};
+
+OrderSummary.propTypes = {
+  toggleOrderModal: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+};
+
+const mapStateToProps = state => {
+  return {
+    burger: state.burger
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, null)(OrderSummary));
+
+/***/ }),
+
+/***/ "./src/components/OrderSummary/OrderSummary.module.css":
+/*!*************************************************************!*\
+  !*** ./src/components/OrderSummary/OrderSummary.module.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./OrderSummary.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/OrderSummary/OrderSummary.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./OrderSummary.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/OrderSummary/OrderSummary.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./OrderSummary.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/OrderSummary/OrderSummary.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Orders/Order/Order.js":
+/*!**********************************************!*\
+  !*** ./src/components/Orders/Order/Order.js ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Order_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Order.module.css */ "./src/components/Orders/Order/Order.module.css");
+/* harmony import */ var _Order_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Order_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\Orders\\Order\\Order.js";
+
+
+
+const Order = props => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Order_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.order,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: _Order_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.orderID,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 7
+    }
+  }, "Order ID : ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 50
+    }
+  }, props.id)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Order_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.orderData,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Order_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.orderRow,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 11
+    }
+  }, "Name:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 11
+    }
+  }, props.name)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Order_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.orderRow,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 11
+    }
+  }, "Email:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 11
+    }
+  }, props.email)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Order_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.orderRow,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 11
+    }
+  }, "Mobile No:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 11
+    }
+  }, props.mobile)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Order_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.orderRow,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 11
+    }
+  }, "Address:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 11
+    }
+  }, props.address)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Order_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.orderRow,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 11
+    }
+  }, "Price:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 11
+    }
+  }, "$", props.price)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Order_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.orderRow,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 11
+    }
+  }, "Ingredients:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: _Order_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.ingredients,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 11
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 13
+    }
+  }, "Cheese : ", props.ingredients.cheese), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 13
+    }
+  }, "Bacon : ", props.ingredients.bacon), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 13
+    }
+  }, "Meat : ", props.ingredients.meat), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 13
+    }
+  }, "Salad : ", props.ingredients.salad)))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Order);
+
+/***/ }),
+
+/***/ "./src/components/Orders/Order/Order.module.css":
+/*!******************************************************!*\
+  !*** ./src/components/Orders/Order/Order.module.css ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Order.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Orders/Order/Order.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Order.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Orders/Order/Order.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Order.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Orders/Order/Order.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Orders/Orders.js":
+/*!*****************************************!*\
+  !*** ./src/components/Orders/Orders.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Orders_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Orders.module.css */ "./src/components/Orders/Orders.module.css");
+/* harmony import */ var _Orders_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Orders_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _utils_axios_db__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utils/axios/db */ "./src/utils/axios/db.js");
+/* harmony import */ var _Order_Order__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Order/Order */ "./src/components/Orders/Order/Order.js");
+/* harmony import */ var _UI_Loader_Loader__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../UI/Loader/Loader */ "./src/components/UI/Loader/Loader.js");
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\Orders\\Orders.js";
+
+
+
+
+
+
+const Orders = () => {
+  const [orders, setOrders] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]);
+  const [error, setError] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('');
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    (async () => {
+      try {
+        const res = await _utils_axios_db__WEBPACK_IMPORTED_MODULE_2__["default"].get('/orders.json');
+        const orderList = [];
+
+        for (let key in res.data) {
+          const order = {};
+          order.id = key;
+          order.name = res.data[key].name;
+          order.email = res.data[key].email;
+          order.mobile = res.data[key].mobile;
+          order.address = res.data[key].address;
+          order.price = res.data[key].price;
+          order.ingredients = res.data[key].ingredients;
+          orderList.push(order);
+        }
+
+        orderList.reverse();
+        setOrders(orderList);
+      } catch (err) {
+        console.log(err.response ? err.response.data : err.message);
+        setError(err.response ? err.response.data.error : err.message);
+      }
+    })();
+  }, []);
+  let ordersDom = orders.map(order => {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Order_Order__WEBPACK_IMPORTED_MODULE_3__["default"], Object.assign({
+      key: order.id
+    }, order, {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 12
+      }
+    }));
+  });
+  return error ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    style: {
+      marginTop: 100,
+      textAlign: 'center'
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 7
+    }
+  }, error) : orders.length > 0 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Orders_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.orders,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: _Orders_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.heading,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 11
+    }
+  }, "Orders"), orders.length > 0 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Orders_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.orderList,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 32
+    }
+  }, ordersDom) : null) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Loader_Loader__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 11
+    }
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Orders);
+
+/***/ }),
+
+/***/ "./src/components/Orders/Orders.module.css":
+/*!*************************************************!*\
+  !*** ./src/components/Orders/Orders.module.css ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Orders.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Orders/Orders.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Orders.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Orders/Orders.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Orders.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Orders/Orders.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/SignUser/SignUser.js":
+/*!*********************************************!*\
+  !*** ./src/components/SignUser/SignUser.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SignUser.module.css */ "./src/components/SignUser/SignUser.module.css");
+/* harmony import */ var _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_SignUser_module_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../redux */ "./src/redux/index.js");
+/* harmony import */ var _UI_Loader_Loader__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../UI/Loader/Loader */ "./src/components/UI/Loader/Loader.js");
+/* harmony import */ var _utils_tranformText__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../utils/tranformText */ "./src/utils/tranformText.js");
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\SignUser\\SignUser.js";
+
+
+
+
+
+
+
+const SignUser = props => {
+  if (props.loggedIn) props.history.goBack();
+  let formRef = null;
+  const [authMode, setAuthMode] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('login');
+  const userCredentials = {};
+
+  const formSubmitHandler = event => {
+    event.preventDefault();
+    formRef.reset();
+    props.login(userCredentials);
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.signUser,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 5
+    }
+  }, props.loading ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Loader_Loader__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 25
+    }
+  }) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    ref: ref => formRef = ref,
+    onSubmit: formSubmitHandler,
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.form,
+    autoComplete: "off",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 7
+    }
+  }, props.error ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.error,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 24
+    }
+  }, Object(_utils_tranformText__WEBPACK_IMPORTED_MODULE_5__["default"])(props.error)) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.heading,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 9
+    }
+  }, authMode === 'login' ? 'Login' : 'Register'), authMode === 'register' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 14
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.formGroup,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.label,
+    htmlFor: "name",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 17
+    }
+  }, "Name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    onChange: event => userCredentials.name = event.target.value,
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.input,
+    type: "text",
+    id: "name",
+    placeholder: "Enter name",
+    required: true,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 17
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.formGroup,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.label,
+    htmlFor: "Mobile",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 17
+    }
+  }, "Mobile"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    onChange: event => userCredentials.mobile = event.target.value,
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.input,
+    type: "text",
+    id: "mobile",
+    minLength: "10",
+    maxLength: "10",
+    placeholder: "Enter mobile",
+    required: true,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 17
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.formGroup,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 15
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.label,
+    htmlFor: "address",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 17
+    }
+  }, "Address"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    onChange: event => userCredentials.address = event.target.value,
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.input,
+    type: "text",
+    id: "address",
+    placeholder: "Enter address",
+    required: true,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 17
+    }
+  }))) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.formGroup,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.label,
+    htmlFor: "email",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 11
+    }
+  }, "Email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    onChange: event => userCredentials.email = event.target.value,
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.input,
+    type: "email",
+    id: "email",
+    placeholder: "Enter email",
+    required: true,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 11
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.formGroup,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.label,
+    htmlFor: "password",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 11
+    }
+  }, "Password"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    onChange: event => userCredentials.password = event.target.value,
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.input,
+    type: "password",
+    minLength: "6",
+    id: "password",
+    placeholder: "Enter password",
+    required: true,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 11
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.desc,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 9
+    }
+  }, authMode === 'login' ? 'Already have an account?' : 'Don\'t have any account?', authMode === 'login' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    onClick: () => setAuthMode('register'),
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 15
+    }
+  }, "Register") : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    onClick: () => setAuthMode('login'),
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 15
+    }
+  }, "Login")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: _SignUser_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.button,
+    type: "submit",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 9
+    }
+  }, authMode === 'login' ? 'Login' : 'Register')));
+};
+
+const mapStateToProps = state => {
+  return {
+    loading: state.auth.loading,
+    error: state.auth.error,
+    loggedIn: state.auth.user.idToken ? true : false
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    login: credentials => dispatch(Object(_redux__WEBPACK_IMPORTED_MODULE_3__["login"])(credentials))
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(SignUser));
+
+/***/ }),
+
+/***/ "./src/components/SignUser/SignUser.module.css":
+/*!*****************************************************!*\
+  !*** ./src/components/SignUser/SignUser.module.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./SignUser.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/SignUser/SignUser.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./SignUser.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/SignUser/SignUser.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./SignUser.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/SignUser/SignUser.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/UI/Backdrop/Backdrop.js":
+/*!************************************************!*\
+  !*** ./src/components/UI/Backdrop/Backdrop.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Backdrop_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Backdrop.module.css */ "./src/components/UI/Backdrop/Backdrop.module.css");
+/* harmony import */ var _Backdrop_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Backdrop_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\UI\\Backdrop\\Backdrop.js";
+
+
+
+const Backdrop = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Backdrop_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.backdrop,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 10
+    }
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Backdrop);
+
+/***/ }),
+
+/***/ "./src/components/UI/Backdrop/Backdrop.module.css":
+/*!********************************************************!*\
+  !*** ./src/components/UI/Backdrop/Backdrop.module.css ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Backdrop.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Backdrop/Backdrop.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Backdrop.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Backdrop/Backdrop.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Backdrop.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Backdrop/Backdrop.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/UI/Button/Button.js":
+/*!********************************************!*\
+  !*** ./src/components/UI/Button/Button.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Button_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Button.module.css */ "./src/components/UI/Button/Button.module.css");
+/* harmony import */ var _Button_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Button_module_css__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\UI\\Button\\Button.js";
+
+
+
+
+const Button = props => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: props.clickHandler,
+    className: [_Button_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.button, _Button_module_css__WEBPACK_IMPORTED_MODULE_2___default.a[props.type]].join(' '),
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 5
+    }
+  }, props.name);
+};
+
+Button.propTypes = {
+  name: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+  type: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+  clickHandler: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (Button);
+
+/***/ }),
+
+/***/ "./src/components/UI/Button/Button.module.css":
+/*!****************************************************!*\
+  !*** ./src/components/UI/Button/Button.module.css ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Button.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Button/Button.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Button.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Button/Button.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Button.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Button/Button.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/UI/Loader/Loader.js":
+/*!********************************************!*\
+  !*** ./src/components/UI/Loader/Loader.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Loader_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Loader.module.css */ "./src/components/UI/Loader/Loader.module.css");
+/* harmony import */ var _Loader_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Loader_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Backdrop_Backdrop__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Backdrop/Backdrop */ "./src/components/UI/Backdrop/Backdrop.js");
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\UI\\Loader\\Loader.js";
+
+
+
+
+const Loader = props => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Loader_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.loader,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 5
+    }
+  }, props.withBackdrop ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Backdrop_Backdrop__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 29
+    }
+  }) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Loader_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.ldsDualRing,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 7
+    }
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Loader);
+
+/***/ }),
+
+/***/ "./src/components/UI/Loader/Loader.module.css":
+/*!****************************************************!*\
+  !*** ./src/components/UI/Loader/Loader.module.css ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Loader.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Loader/Loader.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Loader.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Loader/Loader.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Loader.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Loader/Loader.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/UI/Modal/Modal.js":
+/*!******************************************!*\
+  !*** ./src/components/UI/Modal/Modal.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Modal_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Modal.module.css */ "./src/components/UI/Modal/Modal.module.css");
+/* harmony import */ var _Modal_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Modal_module_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Backdrop_Backdrop__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Backdrop/Backdrop */ "./src/components/UI/Backdrop/Backdrop.js");
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\components\\UI\\Modal\\Modal.js";
+
+
+
+
+
+const Modal = props => {
+  return !props.hidden ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 21
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Backdrop_Backdrop__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 7
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Modal_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.modal,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 7
+    }
+  }, props.children)) : null;
+};
+
+Modal.propTypes = {
+  hidden: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (Modal);
+
+/***/ }),
+
+/***/ "./src/components/UI/Modal/Modal.module.css":
+/*!**************************************************!*\
+  !*** ./src/components/UI/Modal/Modal.module.css ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Modal.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Modal/Modal.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Modal.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Modal/Modal.module.css", function() {
+		var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./Modal.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/UI/Modal/Modal.module.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/containers/BurgerBuilder/BurgerBuilder2.js":
+/*!********************************************************!*\
+  !*** ./src/containers/BurgerBuilder/BurgerBuilder2.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Burger_Burger__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Burger/Burger */ "./src/components/Burger/Burger.js");
+/* harmony import */ var _components_BuildControllers_BuildController__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/BuildControllers/BuildController */ "./src/components/BuildControllers/BuildController.js");
+/* harmony import */ var _components_UI_Modal_Modal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/UI/Modal/Modal */ "./src/components/UI/Modal/Modal.js");
+/* harmony import */ var _components_OrderSummary_OrderSummary__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/OrderSummary/OrderSummary */ "./src/components/OrderSummary/OrderSummary.js");
+/* harmony import */ var _components_Checkout_Checkout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/Checkout/Checkout */ "./src/components/Checkout/Checkout.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components_Orders_Orders__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/Orders/Orders */ "./src/components/Orders/Orders.js");
+/* harmony import */ var _components_SignUser_SignUser__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/SignUser/SignUser */ "./src/components/SignUser/SignUser.js");
+/* harmony import */ var _components_Logout_Logout__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/Logout/Logout */ "./src/components/Logout/Logout.js");
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\containers\\BurgerBuilder\\BurgerBuilder2.js";
+
+
+
+
+
+
+
+
+
+
+
+class BurgerBuilder extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(...args) {
+    super(...args);
+    this.state = {
+      showOrderModal: false
+    };
+
+    this.toggleOrderModalHandler = () => {
+      this.setState({
+        showOrderModal: !this.state.showOrderModal
+      });
+    };
+  }
+
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Route"], {
+      path: "/",
+      render: props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_UI_Modal_Modal__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        hidden: !this.state.showOrderModal,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_OrderSummary_OrderSummary__WEBPACK_IMPORTED_MODULE_4__["default"], Object.assign({}, props, {
+        toggleOrderModal: this.toggleOrderModalHandler,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 13
+        }
+      }))),
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Route"], {
+      path: ["/", "/checkout"],
+      exact: true,
+      component: _components_Burger_Burger__WEBPACK_IMPORTED_MODULE_1__["default"],
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Route"], {
+      path: "/",
+      render: () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BuildControllers_BuildController__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        toggleOrderModal: this.toggleOrderModalHandler,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 11
+        }
+      }),
+      exact: true,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Route"], {
+      path: "/checkout",
+      component: _components_Checkout_Checkout__WEBPACK_IMPORTED_MODULE_5__["default"],
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Route"], {
+      path: "/orders",
+      component: _components_Orders_Orders__WEBPACK_IMPORTED_MODULE_7__["default"],
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Route"], {
+      path: "/auth",
+      component: _components_SignUser_SignUser__WEBPACK_IMPORTED_MODULE_8__["default"],
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Route"], {
+      path: "/logout",
+      component: _components_Logout_Logout__WEBPACK_IMPORTED_MODULE_9__["default"],
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43,
+        columnNumber: 9
+      }
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (BurgerBuilder);
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-app-polyfill/ie9 */ "./node_modules/react-app-polyfill/ie9.js");
+/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
+var _jsxFileName = "C:\\Users\\Student\\Desktop\\learning_reactjs\\burger-builder\\src\\index.js";
+
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_2___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9,
+    columnNumber: 7
+  }
+}), document.getElementById('root')); // If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+
+_serviceWorker__WEBPACK_IMPORTED_MODULE_5__["unregister"]();
+
+/***/ }),
+
+/***/ "./src/redux/auth/authActions.js":
+/*!***************************************!*\
+  !*** ./src/redux/auth/authActions.js ***!
+  \***************************************/
+/*! exports provided: loginRequest, loginSuccess, loginFailure, login, logout */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "loginRequest", function() { return loginRequest; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "loginSuccess", function() { return loginSuccess; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "loginFailure", function() { return loginFailure; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "login", function() { return login; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "logout", function() { return logout; });
+/* harmony import */ var _utils_axios_auth__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../utils/axios/auth */ "./src/utils/axios/auth.js");
+/* harmony import */ var _utils_axios_db__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utils/axios/db */ "./src/utils/axios/db.js");
+/* harmony import */ var _authTypes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./authTypes */ "./src/redux/auth/authTypes.js");
+
+
+
+const loginRequest = () => {
+  return {
+    type: _authTypes__WEBPACK_IMPORTED_MODULE_2__["LOGIN_REQUEST"]
+  };
+};
+const loginSuccess = userData => {
+  return {
+    type: _authTypes__WEBPACK_IMPORTED_MODULE_2__["LOGIN_SUCCESS"],
+    payload: userData
+  };
+};
+const loginFailure = error => {
+  return {
+    type: _authTypes__WEBPACK_IMPORTED_MODULE_2__["LOGIN_FAILURE"],
+    payload: error
+  };
+};
+const login = ({
+  email,
+  password
+}) => {
+  return async dispatch => {
+    dispatch(loginRequest());
+
+    try {
+      const loginRes = await _utils_axios_auth__WEBPACK_IMPORTED_MODULE_0__["default"].post('/accounts:signInWithPassword?key=AIzaSyBR2tEdzwXl3uH-c_-DZZWxsW5ftwNyaE0', {
+        email: email,
+        password: password,
+        returnSecureToken: true
+      });
+      const userRes = await _utils_axios_db__WEBPACK_IMPORTED_MODULE_1__["default"].get(`/users/${loginRes.data.localId}.json?auth=${loginRes.data.idToken}`);
+      dispatch(loginSuccess({
+        name: userRes.data.name,
+        mobile: userRes.data.mobile,
+        address: userRes.data.address,
+        email: loginRes.data.email,
+        idToken: loginRes.data.idToken,
+        localId: loginRes.data.localId,
+        expiresIn: loginRes.data.expiresIn
+      }));
+    } catch (err) {
+      dispatch(loginFailure(err.response ? err.response.data.error.message ? err.response.data.error.message : err.response.data.error : err.message));
+    }
+  };
+};
+const logout = () => {
+  return {
+    type: _authTypes__WEBPACK_IMPORTED_MODULE_2__["LOGOUT"]
+  };
+};
+
+/***/ }),
+
+/***/ "./src/redux/auth/authReducer.js":
+/*!***************************************!*\
+  !*** ./src/redux/auth/authReducer.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _authTypes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./authTypes */ "./src/redux/auth/authTypes.js");
+
+const intitialState = {
+  user: {
+    name: null,
+    email: null,
+    mobile: null,
+    address: null,
+    idToken: null,
+    expiresIn: null,
+    localId: null
+  },
+  loading: false,
+  error: null
+};
+
+const authReducer = (state = intitialState, action) => {
+  switch (action.type) {
+    case _authTypes__WEBPACK_IMPORTED_MODULE_0__["LOGIN_REQUEST"]:
+      return { ...state,
+        loading: true
+      };
+
+    case _authTypes__WEBPACK_IMPORTED_MODULE_0__["LOGIN_SUCCESS"]:
+      return { ...state,
+        loading: false,
+        user: action.payload,
+        error: ''
+      };
+
+    case _authTypes__WEBPACK_IMPORTED_MODULE_0__["LOGIN_FAILURE"]:
+      return { ...state,
+        loading: false,
+        error: action.payload
+      };
+
+    case _authTypes__WEBPACK_IMPORTED_MODULE_0__["LOGOUT"]:
+      return intitialState;
+
+    default:
+      return state;
+  }
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (authReducer);
+
+/***/ }),
+
+/***/ "./src/redux/auth/authTypes.js":
+/*!*************************************!*\
+  !*** ./src/redux/auth/authTypes.js ***!
+  \*************************************/
+/*! exports provided: LOGIN_REQUEST, LOGIN_SUCCESS, LOGIN_FAILURE, LOGOUT */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LOGIN_REQUEST", function() { return LOGIN_REQUEST; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LOGIN_SUCCESS", function() { return LOGIN_SUCCESS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LOGIN_FAILURE", function() { return LOGIN_FAILURE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LOGOUT", function() { return LOGOUT; });
+const LOGIN_REQUEST = 'LOGIN_REQUEST';
+const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+const LOGIN_FAILURE = 'LOGIN_FAILURE';
+const LOGOUT = 'LOGOUT';
+
+/***/ }),
+
+/***/ "./src/redux/burger/burgerActions.js":
+/*!*******************************************!*\
+  !*** ./src/redux/burger/burgerActions.js ***!
+  \*******************************************/
+/*! exports provided: addIngredient, removeIngredient, resetBurger */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addIngredient", function() { return addIngredient; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "removeIngredient", function() { return removeIngredient; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resetBurger", function() { return resetBurger; });
+/* harmony import */ var _burgerTypes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./burgerTypes */ "./src/redux/burger/burgerTypes.js");
+
+const addIngredient = ingredient => {
+  return {
+    type: _burgerTypes__WEBPACK_IMPORTED_MODULE_0__["ADD_INGREDIENT"],
+    payload: ingredient
+  };
+};
+const removeIngredient = ingredient => {
+  return {
+    type: _burgerTypes__WEBPACK_IMPORTED_MODULE_0__["REMOVE_INGREDIENT"],
+    payload: ingredient
+  };
+};
+const resetBurger = () => {
+  return {
+    type: _burgerTypes__WEBPACK_IMPORTED_MODULE_0__["RESET_BURGER"]
+  };
+};
+
+/***/ }),
+
+/***/ "./src/redux/burger/burgerReducer.js":
+/*!*******************************************!*\
+  !*** ./src/redux/burger/burgerReducer.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _burgerTypes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./burgerTypes */ "./src/redux/burger/burgerTypes.js");
+
+const INGREDIENTS_PRICE = {
+  cheese: 2.99,
+  bacon: 4.99,
+  meat: 7.49,
+  salad: 1.49
+};
+const initialState = {
+  ingredients: {
+    cheese: 0,
+    bacon: 0,
+    meat: 0,
+    salad: 0
+  },
+  totalPrice: 0,
+  totalIngredients: 0
+};
+
+const burgerReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case _burgerTypes__WEBPACK_IMPORTED_MODULE_0__["ADD_INGREDIENT"]:
+      return { ...state,
+        ingredients: { ...state.ingredients,
+          [action.payload]: state.ingredients[action.payload] + 1
+        },
+        totalPrice: state.totalPrice + INGREDIENTS_PRICE[action.payload],
+        totalIngredients: state.totalIngredients + 1
+      };
+
+    case _burgerTypes__WEBPACK_IMPORTED_MODULE_0__["REMOVE_INGREDIENT"]:
+      return state.ingredients[action.payload] ? { ...state,
+        ingredients: { ...state.ingredients,
+          [action.payload]: state.ingredients[action.payload] - 1
+        },
+        totalPrice: state.totalPrice - INGREDIENTS_PRICE[action.payload],
+        totalIngredients: state.totalIngredients - 1
+      } : state;
+
+    case _burgerTypes__WEBPACK_IMPORTED_MODULE_0__["RESET_BURGER"]:
+      return { ...initialState
+      };
+
+    default:
+      return state;
+  }
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (burgerReducer);
+
+/***/ }),
+
+/***/ "./src/redux/burger/burgerTypes.js":
+/*!*****************************************!*\
+  !*** ./src/redux/burger/burgerTypes.js ***!
+  \*****************************************/
+/*! exports provided: ADD_INGREDIENT, REMOVE_INGREDIENT, RESET_BURGER */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ADD_INGREDIENT", function() { return ADD_INGREDIENT; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "REMOVE_INGREDIENT", function() { return REMOVE_INGREDIENT; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RESET_BURGER", function() { return RESET_BURGER; });
+const ADD_INGREDIENT = 'ADD_INGREDIENT';
+const REMOVE_INGREDIENT = 'REMOVE_INGREDIENT';
+const RESET_BURGER = 'RESET_BURGER';
+
+/***/ }),
+
+/***/ "./src/redux/index.js":
+/*!****************************!*\
+  !*** ./src/redux/index.js ***!
+  \****************************/
+/*! exports provided: addIngredient, removeIngredient, resetBurger, loginRequest, loginSuccess, loginFailure, login, logout */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _burger_burgerActions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./burger/burgerActions */ "./src/redux/burger/burgerActions.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "addIngredient", function() { return _burger_burgerActions__WEBPACK_IMPORTED_MODULE_0__["addIngredient"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "removeIngredient", function() { return _burger_burgerActions__WEBPACK_IMPORTED_MODULE_0__["removeIngredient"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "resetBurger", function() { return _burger_burgerActions__WEBPACK_IMPORTED_MODULE_0__["resetBurger"]; });
+
+/* harmony import */ var _auth_authActions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./auth/authActions */ "./src/redux/auth/authActions.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "loginRequest", function() { return _auth_authActions__WEBPACK_IMPORTED_MODULE_1__["loginRequest"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "loginSuccess", function() { return _auth_authActions__WEBPACK_IMPORTED_MODULE_1__["loginSuccess"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "loginFailure", function() { return _auth_authActions__WEBPACK_IMPORTED_MODULE_1__["loginFailure"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "login", function() { return _auth_authActions__WEBPACK_IMPORTED_MODULE_1__["login"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "logout", function() { return _auth_authActions__WEBPACK_IMPORTED_MODULE_1__["logout"]; });
+
+
+
+
+/***/ }),
+
+/***/ "./src/redux/store.js":
+/*!****************************!*\
+  !*** ./src/redux/store.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
+/* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! redux-thunk */ "./node_modules/redux-thunk/es/index.js");
+/* harmony import */ var _burger_burgerReducer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./burger/burgerReducer */ "./src/redux/burger/burgerReducer.js");
+/* harmony import */ var _auth_authReducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./auth/authReducer */ "./src/redux/auth/authReducer.js");
+
+
+
+
+const rootReducer = Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])({
+  auth: _auth_authReducer__WEBPACK_IMPORTED_MODULE_3__["default"],
+  burger: _burger_burgerReducer__WEBPACK_IMPORTED_MODULE_2__["default"]
+});
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || redux__WEBPACK_IMPORTED_MODULE_0__["compose"];
+const store = Object(redux__WEBPACK_IMPORTED_MODULE_0__["createStore"])(rootReducer, composeEnhancers(Object(redux__WEBPACK_IMPORTED_MODULE_0__["applyMiddleware"])(redux_thunk__WEBPACK_IMPORTED_MODULE_1__["default"])));
+/* harmony default export */ __webpack_exports__["default"] = (store);
+
+/***/ }),
+
+/***/ "./src/serviceWorker.js":
+/*!******************************!*\
+  !*** ./src/serviceWorker.js ***!
+  \******************************/
+/*! exports provided: register, unregister */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "register", function() { return register; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unregister", function() { return unregister; });
+// This optional code is used to register a service worker.
+// register() is not called by default.
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read https://bit.ly/CRA-PWA
+const isLocalhost = Boolean(window.location.hostname === 'localhost' || // [::1] is the IPv6 localhost address.
+window.location.hostname === '[::1]' || // 127.0.0.0/8 are considered localhost for IPv4.
+window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+function register(config) {
+  if (false) {}
+}
+
+function registerValidSW(swUrl, config) {
+  navigator.serviceWorker.register(swUrl).then(registration => {
+    registration.onupdatefound = () => {
+      const installingWorker = registration.installing;
+
+      if (installingWorker == null) {
+        return;
+      }
+
+      installingWorker.onstatechange = () => {
+        if (installingWorker.state === 'installed') {
+          if (navigator.serviceWorker.controller) {
+            // At this point, the updated precached content has been fetched,
+            // but the previous service worker will still serve the older
+            // content until all client tabs are closed.
+            console.log('New content is available and will be used when all ' + 'tabs for this page are closed. See https://bit.ly/CRA-PWA.'); // Execute callback
+
+            if (config && config.onUpdate) {
+              config.onUpdate(registration);
+            }
+          } else {
+            // At this point, everything has been precached.
+            // It's the perfect time to display a
+            // "Content is cached for offline use." message.
+            console.log('Content is cached for offline use.'); // Execute callback
+
+            if (config && config.onSuccess) {
+              config.onSuccess(registration);
+            }
+          }
+        }
+      };
+    };
+  }).catch(error => {
+    console.error('Error during service worker registration:', error);
+  });
+}
+
+function checkValidServiceWorker(swUrl, config) {
+  // Check if the service worker can be found. If it can't reload the page.
+  fetch(swUrl, {
+    headers: {
+      'Service-Worker': 'script'
+    }
+  }).then(response => {
+    // Ensure service worker exists, and that we really are getting a JS file.
+    const contentType = response.headers.get('content-type');
+
+    if (response.status === 404 || contentType != null && contentType.indexOf('javascript') === -1) {
+      // No service worker found. Probably a different app. Reload the page.
+      navigator.serviceWorker.ready.then(registration => {
+        registration.unregister().then(() => {
+          window.location.reload();
+        });
+      });
+    } else {
+      // Service worker found. Proceed as normal.
+      registerValidSW(swUrl, config);
+    }
+  }).catch(() => {
+    console.log('No internet connection found. App is running in offline mode.');
+  });
+}
+
+function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(registration => {
+      registration.unregister();
+    }).catch(error => {
+      console.error(error.message);
+    });
+  }
+}
+
+/***/ }),
+
+/***/ "./src/utils/axios/auth.js":
+/*!*********************************!*\
+  !*** ./src/utils/axios/auth.js ***!
+  \*********************************/
+/*! exports provided: default, CancelToken */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CancelToken", function() { return CancelToken; });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+
+const instance = axios__WEBPACK_IMPORTED_MODULE_0___default.a.create({
+  baseURL: 'https://identitytoolkit.googleapis.com/v1/'
+});
+const CancelToken = instance.CancelToken;
+instance.interceptors.request.use(req => {
+  return req;
+}, err => {
+  throw err;
+});
+instance.interceptors.response.use(res => {
+  return res;
+}, err => {
+  throw err;
+});
+/* harmony default export */ __webpack_exports__["default"] = (instance);
+
+
+/***/ }),
+
+/***/ "./src/utils/axios/db.js":
+/*!*******************************!*\
+  !*** ./src/utils/axios/db.js ***!
+  \*******************************/
+/*! exports provided: default, CancelToken */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CancelToken", function() { return CancelToken; });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+
+const instance = axios__WEBPACK_IMPORTED_MODULE_0___default.a.create({
+  baseURL: "https://burger-builder-263b1.firebaseio.com/"
+});
+const CancelToken = instance.CancelToken;
+instance.interceptors.request.use(req => {
+  return req;
+}, err => {
+  throw err;
+});
+instance.interceptors.response.use(res => {
+  return res;
+}, err => {
+  throw err;
+});
+/* harmony default export */ __webpack_exports__["default"] = (instance);
+
+
+/***/ }),
+
+/***/ "./src/utils/tranformText.js":
+/*!***********************************!*\
+  !*** ./src/utils/tranformText.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const transformText = text => {
+  const newText = text.split('_').join(' ');
+  const string = newText.toLowerCase();
+  console.log(string);
+  const str = string.charAt(0).toUpperCase() + string.slice(1);
+  return str;
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (transformText);
+
+/***/ }),
+
+/***/ 1:
+/*!**************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\Student\Desktop\learning_reactjs\burger-builder\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Users\Student\Desktop\learning_reactjs\burger-builder\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\Student\Desktop\learning_reactjs\burger-builder\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main",0]]]);
+//# sourceMappingURL=main.chunk.js.map

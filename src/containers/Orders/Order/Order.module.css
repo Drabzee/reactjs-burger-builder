@@ -1,0 +1,45 @@
+.order {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.orderID {
+  background-color: orange;
+  color: white;
+  align-self: flex-start;
+  text-align: center;
+  padding: 7px 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.orderData {
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 40px;
+  border-bottom: 3px solid orange;
+}
+
+.orderRow {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  padding: 10px;
+}
+
+.orderRow:last-of-type {
+  border: 0;
+}
+
+.orderRow h4 {
+  flex: 1;
+}
+
+.orderRow p {
+  flex: 2;
+}
+
+.ingredients {
+  flex: 2;
+  margin-left: 27px;
+}

@@ -1,0 +1,16 @@
+.button {
+  background-color: white;
+  border: 0;
+  outline: 0;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.success {
+  color: #5cb85c;
+}
+
+.danger {
+  color: #d9534f;
+}

@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+
+.controller {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  text-transform: capitalize;
+}
+
+.qty {
+  margin: 0 10px;
+}
+
+.removeButton, .addButton {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.addButton {
+  background-color: #8f6414;
+  border: 2px solid #8f6414;
+}
+
+.removeButton {
+  background-color: orange;
+  border: 2px solid #8f6414;
+}
+
+.addIcon, .removeIcon {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.removeIcon {
+  color: #8f6414;
+}
+
+.addIcon {
+  color: white;
+}
